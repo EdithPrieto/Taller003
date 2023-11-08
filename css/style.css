@@ -1,0 +1,105 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    z-index: 9999;
+}
+
+main {
+   
+    padding: 20px;
+}
+
+.logotipo {
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
+    top: 0;
+    position: fixed;
+    margin-top: 0;
+    background-color: white;
+}
+.logo-contenedor{
+    background-color: white;
+    width: 100%;
+}
+
+.navegador{
+    display: flex; /* Hace que los elementos hijos se muestren en línea */
+    justify-content: space-between; /* Distribuye los elementos hijos a lo largo del eje horizontal */
+    align-items: center; /* Centra los elementos hijos verticalmente */
+    background-color: purple; /* Establece el color de fondo del encabezado a un gris oscuro */
+    padding: 10px 30px; /* Añade 10px de padding en la parte superior e inferior, y 30px en los lados */
+    color: white; /* Establece el color del texto a blanco */
+    position: fixed; /* Fija el encabezado en una posición específica */
+    top: 30px; /* Coloca el encabezado a 30px desde la parte superior de la página */
+    left: 0; /* Coloca el encabezado a 0px desde el lado izquierdo de la página */
+    width: calc(100% - 60px);
+    height: 40px;
+    z-index: 100; /* Establece el orden de apilamiento del encabezado a 100 */
+    margin-top: 40px;
+}
+
+.navegador ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Hace que los elementos de la lista se muestren en línea y los centra */
+    gap: 20px; /* Espacio entre los elementos de la lista */
+    list-style-type: none; /* Elimina los marcadores de lista predeterminados */
+
+}
+
+.navegador li {
+    flex: 1;
+}
+
+.navegador a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.navegador a:hover {
+    background-color: lightpink;
+}
+
+.navegador a.selected {
+    background-color: darkpurple;
+    color: white;
+}
+
+.navegador a.selected:hover {
+    background-color: lightpink;
+}
+
+.portada{
+    width: 100%;
+    height: 500px;
+    margin-top:50px;
+    top: 50px;
+    position: relative;
+    display: block;
+
+}
+
+
+.subtitulo{
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+  
+.imagen {
+    text-align: center;
+}
